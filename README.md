@@ -5,8 +5,8 @@ STM32-based real-time environmental monitoring system with I2C sensors and SPI d
 | Project | Platform | Key Skills |
 |---------|----------|-----------|
 | [STM32 Environmental Monitor](https://github.com/aaka71056/stm32-environmental-monitor)| STM32F103 | Embedded C, I2C, SPI, Filtering |
-| [PLC Star-Delta Motor Control](link) | Siemens S7-1200 | Ladder Logic, IEC 61131-3, Motor Control |
-| [Industrial Fault Detection System](link) | STM32F303 + Python | DSP/FFT, Modbus RTU, Condition Monitoring |
+| [PLC Star-Delta Motor Control](https://github.com/aaka71056/plc-star-delta-motor-control) | Siemens S7-1200 | Ladder Logic |
+| | [Industrial Fault Detection System](https://github.com/aaka71056/industrial-fault-detection-system) | STM32F303 + Python | DSP, Modbus |
 
 ## 🛠 Skills
 - **Embedded Systems:** STM32 (HAL/LL), ARM Cortex-M, Embedded C, FreeRTOS
