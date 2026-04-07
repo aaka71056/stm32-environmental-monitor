@@ -17,7 +17,7 @@ This project implements a real-time environmental monitoring system using the ST
 - Threshold-based alert system
 
 ## System Architecture
-![Architecture](diagrams/block.png)
+![Architecture]
 
 ## Engineering Considerations
 - Modular driver design
