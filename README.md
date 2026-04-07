@@ -31,7 +31,7 @@ Used in:
 - Industrial safety systems
 
 ## Results
-(Add screenshot here)
+![Output]
 
 ## Repository Structure
 /code  
