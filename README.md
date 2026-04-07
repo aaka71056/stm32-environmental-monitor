@@ -1,16 +1,40 @@
-# stm32-environmental-monitor
-STM32-based real-time environmental monitoring system with I2C sensors and SPI display
-## 🔧 Engineering Projects
+# Smart Environmental Monitoring System
 
-| Project | Platform | Key Skills |
-|---------|----------|-----------|
-| [STM32 Environmental Monitor](https://github.com/aaka71056/stm32-environmental-monitor)| STM32F103 | Embedded C, I2C, SPI, Filtering |
-| [PLC Star-Delta Motor Control](https://github.com/aaka71056/plc-star-delta-motor-control) | Siemens S7-1200 | Ladder Logic |
-| [Industrial Fault Detection System](https://github.com/aaka71056/industrial-fault-detection-system) | STM32F303 + Python | DSP, Modbus |
+![Platform](https://img.shields.io/badge/Platform-STM32F103C8T6-blue)
+![Language](https://img.shields.io/badge/Language-Embedded%20C-green)
+![Protocols](https://img.shields.io/badge/Protocols-I2C%20%7C%20SPI-orange)
+![Application](https://img.shields.io/badge/Application-Industrial%20Monitoring-purple)
+![Project Status](https://img.shields.io/badge/Project%20Status-Complete-brightgreen)
 
-## 🛠 Skills
-- **Embedded Systems:** STM32 (HAL/LL), ARM Cortex-M, Embedded C, FreeRTOS
-- **Industrial Automation:** Siemens S7 PLC, TIA Portal, Ladder Logic, IEC 61131-3
-- **Communication Protocols:** I2C, SPI, UART, RS-485, Modbus RTU, CAN
-- **Signal Processing:** FFT (CMSIS-DSP), filtering, sensor fusion
-- **Tools:** STM32CubeIDE, TIA Portal, KiCad, Python, Git
+## Overview
+This project implements a real-time environmental monitoring system using the STM32F103C8T6 microcontroller. It integrates temperature and motion sensors via I2C and displays processed data on an SPI-based LCD.
+
+## Features
+- Temperature sensing (LM75B)
+- Motion sensing (MMA7660)
+- I2C communication
+- SPI LCD display
+- Threshold-based alert system
+
+## System Architecture
+(Add diagram here)
+
+## Engineering Considerations
+- Modular driver design
+- Signal filtering (moving average)
+- Efficient protocol usage (I2C + SPI)
+
+## Industrial Relevance
+Used in:
+- Equipment monitoring
+- Preventive maintenance
+- Industrial safety systems
+
+## Results
+(Add screenshot here)
+
+## Repository Structure
+/code  
+/images  
+/diagrams  
+/docs
